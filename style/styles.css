@@ -69,6 +69,9 @@ nav {
     background-image: url(../images/Group\ 14.png);
     width: 100%;
     background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .banner-title span {
@@ -108,9 +111,9 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 100px;
-    padding-left: 100px;
-    padding-right: ;
+    gap: 40px;
+    padding-right: 100px;
+    padding-left: 60px;
     
 }
 .banner img {
@@ -122,8 +125,8 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 100px;
-    padding: 100px;
+    gap: 70px;
+    padding-right: 100px;
     text-align: right;
 }
 .we-are-gamer h5, h4 {
@@ -156,14 +159,14 @@ nav {
     font-size: 30px;
 }
 .play-title-container {
-    text-align: center;
+    text-align: right;
+    padding-top: 200px;
+    
 }
 .play-section {
     display: flex;
-    align-items: center;
     justify-content: center;
     gap: 200px;
-    padding: 40px;
     margin-top: 100px;
     margin-bottom: none;
     
@@ -178,11 +181,20 @@ nav {
 /* grid section */
 .grid-section {
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
-    padding-top: 40px;
-    margin-top: -250px;
-    display: grid;
-    grid-template-columns: repeat(5 1fr);
+    padding: 50px;
+    margin-top: -220px;
     
+}
+.grid-container1 {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.grid-container2 {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
 }
 
 .grid-img-container {
@@ -245,6 +257,19 @@ footer {
     color: #FFF;
 }
 
+@media screen and (max-width: 576px) {
+    nav,
+    .nav-content ul,
+    .banner {
+        flex-direction: column;
+        background: none;
+        
+    }
+    .banner .banner-title {
+        background-image: none;
+    }
+
+}
 
 
 
