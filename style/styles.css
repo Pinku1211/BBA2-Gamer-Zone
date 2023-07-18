@@ -4,7 +4,15 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 .primary-text {
-    font-size: 1.2em;
+    font-size: 0.8em;
+}
+.section-title {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+    font-weight: 800;
 }
 
 /* nav styles */
@@ -61,7 +69,7 @@ nav {
     align-items: flex-start;
     gap: 15px;
 }
-.banner-btn .btn-1 {
+.banner-btn .btn-1, .gamer-btn {
     border-radius: 48px;
     background: #FF42A5;
     border: none;
@@ -89,5 +97,19 @@ nav {
 }
 .banner img {
     height: 400px;
+}
+/* we are gamer section */
+.we-are-gamer {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding: 100px;
+    text-align: right;
+}
+.we-are-gamer h5, h4 {
+    margin-top: 5px;
+    margin-bottom: 2px;
 }
 
