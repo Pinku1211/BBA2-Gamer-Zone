@@ -16,7 +16,7 @@ body {
 }
 
 /* nav styles */
-.nav-title {
+.nav-title, .footer-title {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -25,19 +25,31 @@ body {
     width: 40px;
     height: 30px;
 }
-.nav-title h3 span {
+.nav-title span, .footer-title span {
     color: #ff42a5;
 }
 .nav-content ul {
     display: flex;
+    align-items: center;
     list-style: none;
     gap: 20px;
     
 }
 .nav-content li {
     color: #3C354F;
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: 500;
+}
+.nav-content a {
+    text-decoration: none;
+}
+.list-with-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.list-with-logo img {
+    height: 20px;
 }
 nav {
     background: #FFF;
@@ -49,13 +61,13 @@ nav {
     padding-right: 100px;
 }
 /* main section styles */
-/* .banner-title{
-    /* background-image: url(../images/Group\ 14.png);
-    width: auto;
-    height: 400px;
-    flex-shrink: 0;
-} */ 
-.banner-title h2 span {
+.banner-title {
+    background-image: url(../images/Group\ 14.png);
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.banner-title span {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -93,6 +105,8 @@ nav {
     align-items: center;
     justify-content: center;
     gap: 100px;
+    padding-left: 100px;
+    padding-right: ;
     
 }
 .banner img {
@@ -114,18 +128,119 @@ nav {
 }
 /* online game section */
 
-.online-game {
+.online-game-section {
     margin-top: 80px;
 }
-.title-container{
+.online-title-container{
     text-align: center;
-    margin: 6px;
     
 }
+.online-title-container h3 {
+    font-size: 30px;
+    font-weight: 800px;
+}
+
 .card-container {
     display: flex;
     justify-content: center;
     gap: 15px;
     margin-top: 40px;
 }
+/* play section */
+.play-title-container h3 {
+    font-weight: 800px;
+    font-size: 30px;
+}
+.play-title-container {
+    text-align: center;
+}
+.play-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    padding: 40px;
+    margin-top: 100px;
+    margin-bottom: none;
+    
+
+}
+.relative-position-img {
+    position: relative;
+    bottom: 300px;
+    right: 140px;
+   
+}
+/* grid section */
+.grid-section {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    padding-top: 40px;
+    margin-top: -250px;
+    display: grid;
+    grid-template-columns: repeat(5 1fr);
+    
+}
+
+.grid-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    border-radius: 50px;
+    background: #FFF;
+    width: 243px;
+    height: 80px;
+}
+.grid-text {
+    color: #0B0223;    
+    font-size: 0.8em;  
+    font-weight: 600;
+}
+/* footer section */
+footer {
+    background: #0B0223;
+    padding: 50px;
+    
+}
+.footer-title h3 {
+    color: #FFF;
+}
+.footer-title {
+    width: fit-content;
+    margin: auto;
+}
+.footer-list-content ul li {
+    color: #FFF;
+    font-size: 0.8em;
+}
+.footer-list-content ul, .terms-condition-list ul {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    list-style: none;
+}
+.footer-icon {
+    margin-top: 40px;
+    text-align: center;
+}
+.footer-icon img {
+    height: 20px;
+    margin-right: 40px;
+}
+.terms-condition-list ul li{
+    color: #FFF;
+    font-size: 0.5em;
+    
+}
+.terms-condition-list {
+    text-align: center
+}
+.copyright {
+    font-size: 0.4em;
+    color: #FFF;
+}
+
+
+
 
