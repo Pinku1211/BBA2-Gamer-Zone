@@ -47,6 +47,10 @@ body {
     display: flex;
     align-items: center;
     gap: 10px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 10px;
+
 }
 .list-with-logo img {
     height: 20px;
