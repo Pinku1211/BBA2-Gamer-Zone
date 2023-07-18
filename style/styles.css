@@ -112,4 +112,20 @@ nav {
     margin-top: 5px;
     margin-bottom: 2px;
 }
+/* online game section */
+
+.online-game {
+    margin-top: 80px;
+}
+.title-container{
+    text-align: center;
+    margin: 6px;
+    
+}
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 40px;
+}
 
