@@ -250,12 +250,14 @@ nav {
     background: #FFF;
     width: 15.2rem;
     height: 5rem;
+    border: 2px solid #ff42a5;
+    border-color: transparent;
 }
 .grid-img-container:hover .grid-text {
     color: #FF42A5;
 }
 .grid-img-container:hover {
-    border: 1px solid #ff42a5;
+    border: 2px solid #ff42a5;
 }
 
 .grid-text {
